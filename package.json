@@ -1,0 +1,26 @@
+{
+  "name": "antiphony",
+  "version": "1.0.0",
+  "description": "an email survey and response application",
+  "main": "index.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradbrandhorst/antiphony.git"
+  },
+  "author": "Brad Brandhorst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradbrandhorst/antiphony/issues"
+  },
+  "homepage": "https://github.com/bradbrandhorst/antiphony#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
