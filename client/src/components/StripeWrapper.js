@@ -13,7 +13,7 @@ class StripeWrapper extends Component {
         token={token => this.props.grabToken(token)}
         stripeKey={process.env.REACT_APP_STRIPE_KEY}
       >
-        <button className="btn">Add Survey Credits</button>
+        <button className="btn deep-orange darken-2 z-depth-5">Add Survey Credits</button>
       </StripeCheckout>
     );
   }

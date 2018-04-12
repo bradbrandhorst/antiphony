@@ -30,14 +30,14 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper grey darken-3">
           <Link
             to={this.props.auth ? "/surveys" : "/"}
-            className="left brand-logo"
+            className="left brand-logo grey darken-3"
           >
             Antiphony
           </Link>
-          <ul className="right">{this.renderHeader()}</ul>
+          <ul className="right grey darken-3">{this.renderHeader()}</ul>
         </div>
       </nav>
     );
